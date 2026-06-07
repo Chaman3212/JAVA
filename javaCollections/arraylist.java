@@ -19,6 +19,9 @@ public class arraylist {
         ar.addAll(list);
         System.out.println(ar);
         ar.removeAll(list);
+
+
+
         System.out.println(ar);
     }
 }
