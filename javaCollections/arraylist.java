@@ -2,6 +2,7 @@ package javaCollections;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 
 public class arraylist {
     static void main(String[] args) {
@@ -22,6 +23,18 @@ public class arraylist {
 
 
 
-        System.out.println(ar);
+//        System.out.println(ar);
+//        System.out.println(ar.contains(3));
+
+    ArrayList<Integer> l1 = new ArrayList<>();
+    l1.add(3);
+    l1.add(1);
+    l1.add(3);
+    l1.add(23);
+    l1.add(2);
+        System.out.println(l1);
+        Collections.sort(l1);
+        System.out.println(l1);
+
     }
 }
