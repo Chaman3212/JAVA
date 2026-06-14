@@ -1,4 +1,28 @@
 package Arrays;
 
+import java.util.Arrays;
+
 public class Sort_an_Array_Of_0_and_1 {
+    public static int[] sortArray(int arr[]){
+    int i =0,j=arr.length-1;
+    while (i<j){
+        if(arr[i]==1 && arr[j]==0){
+            int temp = arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+        }
+        if(arr[i]==0){
+            i++;
+        }if(arr[j]==1){
+            j--;
+        }
+    }
+        return arr;
+
+    }
+
+    static void main(String[] args) {
+        int[] arr = {1,0,1,0,1,0,1,1};
+        System.out.println(Arrays.toString(sortArray(arr)));;
+    }
 }
