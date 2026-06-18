@@ -23,7 +23,9 @@ public class missingElementInArray {
         for(int i=min-1;i<max;i++){
             arr[i]=i+1;
         }
-        for()
+        for():
+
+
 
 
 
