@@ -12,31 +12,27 @@ public class missingElementInArray {
             if(n>max){
                 max=n;
             }
-            for(int m:nums){
-                if(m<min){
-                    min=m;
-                }
+        }
+        for(int m:nums){
+            if(m<min){
+                min=m;
             }
-
         }
-        int[] arr = new int[max];
-        for(int i=min-1;i<max;i++){
-            arr[i]=i+1;
+        int val = min;
+        for(int n:nums){
+            val = n ^ val;
         }
-        for():
-
-
-
-
-
-
-        System.out.println(Arrays.toString(arr));
+        int val2 = min;
+        for (int i = min; i <=max; i++) {
+            val2 = i ^ val2;
+        }
+        list.add(val ^ val2);
         return list;
 
     }
 
     static void main(String[] args) {
-        int[] arr = {1,4,2,5};
+        int[] arr = {1,4,3,5};
         System.out.println(findMissingElements(arr));
     }
 }
