@@ -11,6 +11,8 @@ public class printSumOfEachRowIn2dArray {
            for (int i = 0; i < nums.length; i++) {
                sum +=nums[i][j];
            }
+
+
            list.add(sum);
        }
         return list;
