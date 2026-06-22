@@ -13,6 +13,8 @@ public class printSumOfEachRowIn2dArray {
            }
 
 
+
+
            list.add(sum);
        }
         return list;
