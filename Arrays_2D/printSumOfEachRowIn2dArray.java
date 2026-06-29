@@ -1,7 +1,6 @@
-package Arrays;
+package Arrays_2D;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class printSumOfEachRowIn2dArray {
     public static ArrayList<Integer> printSumOfEachRow(int[][] nums){
