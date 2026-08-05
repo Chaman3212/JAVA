@@ -10,7 +10,7 @@ public class HashmapBasics {
         map.put("uk","london");
         map.put("sw","amsterdam");
         System.out.println(map);
-        System.out.println(map.getOrDefault("ln","none"));
+
         System.out.println(map);
     }
 }
